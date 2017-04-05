@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmMain
+Partial Class frmCheckout
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -24,15 +24,14 @@ Partial Class frmMain
     Private Sub InitializeComponent()
         Me.SuspendLayout()
         '
-        'frmMain
+        'frmCheckout
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(587, 331)
-        Me.Name = "frmMain"
-        Me.Text = "Main Page"
+        Me.ClientSize = New System.Drawing.Size(603, 340)
+        Me.Name = "frmCheckout"
+        Me.Text = "Checkout"
         Me.ResumeLayout(False)
 
     End Sub
-
 End Class

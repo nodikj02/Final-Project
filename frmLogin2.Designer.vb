@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmMain
+Partial Class frmLogin
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -24,15 +24,14 @@ Partial Class frmMain
     Private Sub InitializeComponent()
         Me.SuspendLayout()
         '
-        'frmMain
+        'frmLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(587, 331)
-        Me.Name = "frmMain"
-        Me.Text = "Main Page"
+        Me.ClientSize = New System.Drawing.Size(381, 305)
+        Me.Name = "frmLogin"
+        Me.Text = "Account Login"
         Me.ResumeLayout(False)
 
     End Sub
-
 End Class
