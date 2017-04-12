@@ -28,6 +28,7 @@ Partial Class frmLogin
         Me.btnSignup = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.CustomersTableAdapter = New Final_Project.FinalProjectDBDataSetTableAdapters.CustomersTableAdapter()
         Me.SuspendLayout()
         '
         'txtUsername
@@ -80,6 +81,10 @@ Partial Class frmLogin
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "Password:"
         '
+        'CustomersTableAdapter
+        '
+        Me.CustomersTableAdapter.ClearBeforeFill = True
+        '
         'frmLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -104,4 +109,5 @@ Partial Class frmLogin
     Friend WithEvents btnSignup As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents CustomersTableAdapter As FinalProjectDBDataSetTableAdapters.CustomersTableAdapter
 End Class

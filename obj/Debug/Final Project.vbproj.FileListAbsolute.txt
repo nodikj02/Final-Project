@@ -1,1 +1,16 @@
 C:\Users\keeg\Desktop\IPFW homework\vb\Final Project\Final Project\bin\Debug\Final Project.exe.config
+C:\Users\keeg\Desktop\IPFW homework\vb\Final Project\Final Project\bin\Debug\Final Project.exe
+C:\Users\keeg\Desktop\IPFW homework\vb\Final Project\Final Project\bin\Debug\Final Project.pdb
+C:\Users\keeg\Desktop\IPFW homework\vb\Final Project\Final Project\bin\Debug\Final Project.xml
+C:\Users\keeg\Desktop\IPFW homework\vb\Final Project\Final Project\obj\Debug\Final Project.vbprojResolveAssemblyReference.cache
+C:\Users\keeg\Desktop\IPFW homework\vb\Final Project\Final Project\obj\Debug\Final_Project.frmMain.resources
+C:\Users\keeg\Desktop\IPFW homework\vb\Final Project\Final Project\obj\Debug\Final_Project.frmCheckout.resources
+C:\Users\keeg\Desktop\IPFW homework\vb\Final Project\Final Project\obj\Debug\Final_Project.frmLogin.resources
+C:\Users\keeg\Desktop\IPFW homework\vb\Final Project\Final Project\obj\Debug\Final_Project.frmSignup.resources
+C:\Users\keeg\Desktop\IPFW homework\vb\Final Project\Final Project\obj\Debug\Final_Project.Resources.resources
+C:\Users\keeg\Desktop\IPFW homework\vb\Final Project\Final Project\obj\Debug\Final Project.vbproj.GenerateResource.Cache
+C:\Users\keeg\Desktop\IPFW homework\vb\Final Project\Final Project\obj\Debug\Final Project.exe
+C:\Users\keeg\Desktop\IPFW homework\vb\Final Project\Final Project\obj\Debug\Final Project.xml
+C:\Users\keeg\Desktop\IPFW homework\vb\Final Project\Final Project\obj\Debug\Final Project.pdb
+C:\Users\keeg\Desktop\IPFW homework\vb\Final Project\Final Project\bin\Debug\FinalProjectDB.mdf
+C:\Users\keeg\Desktop\IPFW homework\vb\Final Project\Final Project\bin\Debug\FinalProjectDB_log.ldf

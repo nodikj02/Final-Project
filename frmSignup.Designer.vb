@@ -22,62 +22,62 @@ Partial Class frmSignup
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.txtfname = New System.Windows.Forms.TextBox()
+        Me.txtlname = New System.Windows.Forms.TextBox()
+        Me.txtuser = New System.Windows.Forms.TextBox()
+        Me.txtpass = New System.Windows.Forms.TextBox()
+        Me.txtvpass = New System.Windows.Forms.TextBox()
+        Me.txtemail = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnCreate = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'TextBox1
+        'txtfname
         '
-        Me.TextBox1.Location = New System.Drawing.Point(157, 26)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox1.TabIndex = 0
+        Me.txtfname.Location = New System.Drawing.Point(157, 26)
+        Me.txtfname.Name = "txtfname"
+        Me.txtfname.Size = New System.Drawing.Size(100, 22)
+        Me.txtfname.TabIndex = 0
         '
-        'TextBox2
+        'txtlname
         '
-        Me.TextBox2.Location = New System.Drawing.Point(157, 74)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox2.TabIndex = 1
+        Me.txtlname.Location = New System.Drawing.Point(157, 74)
+        Me.txtlname.Name = "txtlname"
+        Me.txtlname.Size = New System.Drawing.Size(100, 22)
+        Me.txtlname.TabIndex = 1
         '
-        'TextBox3
+        'txtuser
         '
-        Me.TextBox3.Location = New System.Drawing.Point(157, 128)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox3.TabIndex = 2
+        Me.txtuser.Location = New System.Drawing.Point(157, 128)
+        Me.txtuser.Name = "txtuser"
+        Me.txtuser.Size = New System.Drawing.Size(100, 22)
+        Me.txtuser.TabIndex = 2
         '
-        'TextBox4
+        'txtpass
         '
-        Me.TextBox4.Location = New System.Drawing.Point(157, 177)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox4.TabIndex = 3
+        Me.txtpass.Location = New System.Drawing.Point(157, 177)
+        Me.txtpass.Name = "txtpass"
+        Me.txtpass.Size = New System.Drawing.Size(100, 22)
+        Me.txtpass.TabIndex = 3
         '
-        'TextBox5
+        'txtvpass
         '
-        Me.TextBox5.Location = New System.Drawing.Point(157, 224)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox5.TabIndex = 4
+        Me.txtvpass.Location = New System.Drawing.Point(157, 224)
+        Me.txtvpass.Name = "txtvpass"
+        Me.txtvpass.Size = New System.Drawing.Size(100, 22)
+        Me.txtvpass.TabIndex = 4
         '
-        'TextBox6
+        'txtemail
         '
-        Me.TextBox6.Location = New System.Drawing.Point(157, 272)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox6.TabIndex = 5
+        Me.txtemail.Location = New System.Drawing.Point(157, 272)
+        Me.txtemail.Name = "txtemail"
+        Me.txtemail.Size = New System.Drawing.Size(100, 22)
+        Me.txtemail.TabIndex = 5
         '
         'Label1
         '
@@ -133,33 +133,33 @@ Partial Class frmSignup
         Me.Label6.TabIndex = 11
         Me.Label6.Text = "email:"
         '
-        'Button1
+        'btnCreate
         '
-        Me.Button1.Location = New System.Drawing.Point(114, 314)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(143, 23)
-        Me.Button1.TabIndex = 12
-        Me.Button1.Text = "Create Account"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnCreate.Location = New System.Drawing.Point(114, 314)
+        Me.btnCreate.Name = "btnCreate"
+        Me.btnCreate.Size = New System.Drawing.Size(143, 23)
+        Me.btnCreate.TabIndex = 12
+        Me.btnCreate.Text = "Create Account"
+        Me.btnCreate.UseVisualStyleBackColor = True
         '
         'frmSignup
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(359, 359)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnCreate)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtemail)
+        Me.Controls.Add(Me.txtvpass)
+        Me.Controls.Add(Me.txtpass)
+        Me.Controls.Add(Me.txtuser)
+        Me.Controls.Add(Me.txtlname)
+        Me.Controls.Add(Me.txtfname)
         Me.Name = "frmSignup"
         Me.Text = "frmSignup"
         Me.ResumeLayout(False)
@@ -167,17 +167,17 @@ Partial Class frmSignup
 
     End Sub
 
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents txtfname As TextBox
+    Friend WithEvents txtlname As TextBox
+    Friend WithEvents txtuser As TextBox
+    Friend WithEvents txtpass As TextBox
+    Friend WithEvents txtvpass As TextBox
+    Friend WithEvents txtemail As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnCreate As Button
 End Class
