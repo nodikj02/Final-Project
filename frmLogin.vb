@@ -6,7 +6,9 @@
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
         'check if the username and combo is in database
         If CustomersTableAdapter.validateLogin(txtUsername.Text, txtPass.Text) > 0 Then
-            My.Forms.frmMain.loggedin = True
+            My.Forms.frmMain.mloggedin = True
+            My.Forms.frmMain.Name = CustomersTableAdapter.getNameByUsername(txtUsername.Text)
+            My.Forms.frmMain.lblName.Text = "Welcome " + My.Forms.frmMain.Name
             My.Forms.frmLogin.Close()
 
         End If

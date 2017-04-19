@@ -28,7 +28,8 @@ Partial Class frmMain
         Me.VScrollBar1 = New System.Windows.Forms.VScrollBar()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.lblStat = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblName = New System.Windows.Forms.Label()
+        Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -36,7 +37,7 @@ Partial Class frmMain
         'MenuStrip1
         '
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CheckOutToolStripMenuItem, Me.FilterToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CheckOutToolStripMenuItem, Me.FilterToolStripMenuItem, Me.LoginToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(1118, 28)
@@ -78,22 +79,28 @@ Partial Class frmMain
         Me.lblStat.Size = New System.Drawing.Size(13, 20)
         Me.lblStat.Text = " "
         '
-        'Label1
+        'lblName
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(923, 4)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(152, 24)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Welcome Name!"
+        Me.lblName.AutoSize = True
+        Me.lblName.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblName.Location = New System.Drawing.Point(923, 4)
+        Me.lblName.Name = "lblName"
+        Me.lblName.Size = New System.Drawing.Size(150, 24)
+        Me.lblName.TabIndex = 3
+        Me.lblName.Text = "Welcome Guest!"
+        '
+        'LoginToolStripMenuItem
+        '
+        Me.LoginToolStripMenuItem.Name = "LoginToolStripMenuItem"
+        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(58, 24)
+        Me.LoginToolStripMenuItem.Text = "Login"
         '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1118, 376)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblName)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.VScrollBar1)
         Me.Controls.Add(Me.MenuStrip1)
@@ -115,5 +122,6 @@ Partial Class frmMain
     Friend WithEvents VScrollBar1 As VScrollBar
     Friend WithEvents StatusStrip1 As StatusStrip
     Friend WithEvents lblStat As ToolStripStatusLabel
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lblName As Label
+    Friend WithEvents LoginToolStripMenuItem As ToolStripMenuItem
 End Class

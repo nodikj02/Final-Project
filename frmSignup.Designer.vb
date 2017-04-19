@@ -22,6 +22,7 @@ Partial Class frmSignup
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.txtfname = New System.Windows.Forms.TextBox()
         Me.txtlname = New System.Windows.Forms.TextBox()
         Me.txtuser = New System.Windows.Forms.TextBox()
@@ -35,6 +36,16 @@ Partial Class frmSignup
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.btnCreate = New System.Windows.Forms.Button()
+        Me.ErrorProvider = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.lblStatus = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.CustomersTableAdapter = New Final_Project.FinalProjectDBDataSetTableAdapters.CustomersTableAdapter()
+        Me.ProjectBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.FinalProjectDBDataSet = New Final_Project.FinalProjectDBDataSet()
+        CType(Me.ErrorProvider, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.StatusStrip1.SuspendLayout()
+        CType(Me.ProjectBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.FinalProjectDBDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtfname
@@ -142,11 +153,45 @@ Partial Class frmSignup
         Me.btnCreate.Text = "Create Account"
         Me.btnCreate.UseVisualStyleBackColor = True
         '
+        'ErrorProvider
+        '
+        Me.ErrorProvider.ContainerControl = Me
+        '
+        'StatusStrip1
+        '
+        Me.StatusStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.lblStatus})
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 354)
+        Me.StatusStrip1.Name = "StatusStrip1"
+        Me.StatusStrip1.Size = New System.Drawing.Size(359, 22)
+        Me.StatusStrip1.TabIndex = 13
+        Me.StatusStrip1.Text = "StatusStrip1"
+        '
+        'lblStatus
+        '
+        Me.lblStatus.Name = "lblStatus"
+        Me.lblStatus.Size = New System.Drawing.Size(0, 17)
+        '
+        'CustomersTableAdapter
+        '
+        Me.CustomersTableAdapter.ClearBeforeFill = True
+        '
+        'ProjectBindingSource
+        '
+        Me.ProjectBindingSource.DataSource = Me.FinalProjectDBDataSet
+        Me.ProjectBindingSource.Position = 0
+        '
+        'FinalProjectDBDataSet
+        '
+        Me.FinalProjectDBDataSet.DataSetName = "FinalProjectDBDataSet"
+        Me.FinalProjectDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
         'frmSignup
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(359, 359)
+        Me.ClientSize = New System.Drawing.Size(359, 376)
+        Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.btnCreate)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
@@ -162,6 +207,11 @@ Partial Class frmSignup
         Me.Controls.Add(Me.txtfname)
         Me.Name = "frmSignup"
         Me.Text = "frmSignup"
+        CType(Me.ErrorProvider, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.StatusStrip1.ResumeLayout(False)
+        Me.StatusStrip1.PerformLayout()
+        CType(Me.ProjectBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.FinalProjectDBDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -180,4 +230,10 @@ Partial Class frmSignup
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents btnCreate As Button
+    Friend WithEvents ErrorProvider As ErrorProvider
+    Friend WithEvents StatusStrip1 As StatusStrip
+    Friend WithEvents lblStatus As ToolStripStatusLabel
+    Friend WithEvents CustomersTableAdapter As FinalProjectDBDataSetTableAdapters.CustomersTableAdapter
+    Friend WithEvents ProjectBindingSource As BindingSource
+    Friend WithEvents FinalProjectDBDataSet As FinalProjectDBDataSet
 End Class
